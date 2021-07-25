@@ -1,0 +1,138 @@
+body{
+   overflow-x: hidden;
+}
+#logo{
+   padding-top: 180px
+}
+#intro{
+   padding-top: 20px
+}
+#top{
+   
+   background-image:url("../assets/backgrounds/h_img.jpg");
+   background-size: cover;
+   background-position: center;
+   color:white;
+   text-align: center;
+   height:100vh;
+} 
+
+#about{
+   text-align: center;
+   margin-top: 50px;
+}
+
+#huduma{
+   background-image:url("../assets/backgrounds/s_image.jpg");
+   background-size: cover;
+   height: 50vh;
+   text-align: center;
+   color:white;
+   padding-top:80px;  
+}
+#service{
+   margin-top: 50px
+}
+
+ #work{
+   text-align: center;
+   margin-top:50px;
+}
+
+
+.activities{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   text-align: center;
+   padding-top: 20px;
+
+ }
+ .design-showing, .development-showing, .product-showing{
+   display: none;
+ }
+.design-hidden, .development-hidden, .product-hidden{
+   cursor: pointer;
+}
+
+
+#portfolio{
+   text-align: center;
+   margin-top: 50px;
+}
+.port-img img{
+   display: block;
+   width: 100%; 
+}
+
+
+.image{
+   opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ }
+ .port-img:hover .image {
+   opacity: 0.6;
+ }
+ .port-img:hover .middle{
+   opacity: 1;
+ }
+ 
+.imgs2{ 
+   padding-top:20px;
+}
+
+#contact{
+   background-image: url("../assets/backgrounds/c_image.jpg");
+   text-align: center;
+   background-size: cover;
+   background-position: center;
+   margin-top: 50px;
+   color:white;
+   padding-top:40px 
+}
+input, textarea, button{
+   margin-bottom: 10px;
+   padding: 7px 5px;
+   border: 1px solid #fff;
+   background: transparent;
+   color: #fff;
+}
+::placeholder{
+   color:white;
+}
+.btn button{
+   padding: 7px 10px;
+   width: 150px;
+   transition: border 0.2s;
+   font-size: 1.2rem;
+}
+input{
+   width:400px;
+}
+.contact-us{
+   padding-top: 20px;
+}
+.btn button:hover{
+   border: 2px solid lightseagreen
+} 
+
+
+
+#foot{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.footer-msg p{
+   padding-top:10px;
+   font-size: 0.7em;
+}
+ul>li{
+   display: inline-block
+}
