@@ -9,7 +9,7 @@ body{
 }
 #top{
    
-   background-image:url("../assets/backgrounds/h_img.jpg");
+   background-image:url("assets/backgrounds/h_img.jpg);
    background-size: cover;
    background-position: center;
    color:white;
