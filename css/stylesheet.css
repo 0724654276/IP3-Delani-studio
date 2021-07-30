@@ -8,18 +8,21 @@ body{
    padding-top: 20px
 }
 #top{
-   
-   background-image:url("../assets/backgrounds/h_img.jpg);
+   background-image:url("../assets/backgrounds/h_img.jpg");
    background-size: cover;
    background-position: center;
    color:white;
    text-align: center;
    height:100vh;
 } 
+#mouse{
+padding-top:100px
+}
 
 #about{
    text-align: center;
    margin-top: 50px;
+   font-size: large;
 }
 
 #huduma{
@@ -28,7 +31,8 @@ body{
    height: 50vh;
    text-align: center;
    color:white;
-   padding-top:80px;  
+   padding-top:80px; 
+   font-size: large; 
 }
 #service{
    margin-top: 50px
@@ -38,7 +42,6 @@ body{
    text-align: center;
    margin-top:50px;
 }
-
 
 .activities{
    display: flex;
@@ -74,7 +77,15 @@ body{
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
+.middle {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
  }
  .port-img:hover .image {
    opacity: 0.6;
@@ -82,7 +93,16 @@ body{
  .port-img:hover .middle{
    opacity: 1;
  }
- 
+ .text {
+   border: 3px solid white ;
+   color: rgb(172, 17, 17);
+   font-size: 16px;
+   height: 150px;
+   width:150px;
+   font-size: 30px;
+
+ }
+
 .imgs2{ 
    padding-top:20px;
 }
@@ -131,7 +151,7 @@ input{
 
 .footer-msg p{
    padding-top:10px;
-   font-size: 0.7em;
+   font-size: 0.9em;
 }
 ul>li{
    display: inline-block
